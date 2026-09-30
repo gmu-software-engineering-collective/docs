@@ -1,74 +1,39 @@
-# Software Engineering Collective Repository Template
+# Software Engineering Collective Documentation
 
-This repository is the standard starting point for Software Engineering Collective projects.
+**Purpose:** The published source of truth for SEC engineering standards, architecture decisions, onboarding guides, and finalized workshops.
 
-It provides the shared repository structure, contribution workflow, documentation, security guidance, and GitHub configuration used across club projects.
+**Intended audience:** SEC members, coordinators, contributors, and future club leadership.
 
-> This repository is a template. Do not build project features directly in this repository.
+**Last updated:** 2026-09-30  
+**Owner:** President
 
-## Purpose
+## What belongs here
 
-Use this template when creating a new Software Engineering Collective project repository.
+This repository contains finalized technical and operational documentation that members are expected to follow.
 
-Repositories created from this template inherit the club's baseline engineering structure and contribution standards.
+Working drafts, meeting notes, research notes, workshop drafts, templates, and administrative documents live in the SEC Google Drive. A document has one home; other places should link to it rather than duplicate it.
 
-## Project Information
+## Documentation areas
 
-When creating a project from this template, replace this section with:
+- **Engineering Principles** — the club's shared engineering rules
+- **Glossary** — plain-language definitions of common engineering terms
+- **Onboarding** — guides for new contributors
+- **Engineering Standards** — Git workflow, coding standards, and security expectations
+- **ADRs** — major architecture and organization decisions with their reasoning
+- **Architecture** — finalized system-design documents
+- **Workshops** — finalized workshop materials
+- **Meeting Notes** — published meeting records when appropriate
+- **Templates** — published Markdown templates and worked examples
 
-- Project purpose
-- Project goals
-- Intended users
-- Current project status
+## How to propose a documentation change
 
-## Tech Stack
+1. Create a branch using the `docs/` prefix.
+2. Make the change and update the document's date and owner.
+3. Open a pull request and link the related issue, if one exists.
+4. Receive one approval before merging to `main`.
 
-Document the technologies used by the project.
+## Related resources
 
-## Architecture
-
-Describe the high-level architecture of the project.
-
-Link to an Architecture Decision Record (ADR) when applicable.
-
-## Prerequisites
-
-List the software, tools, and accounts required for local development.
-
-## Local Setup
-
-Document the steps required to set up the project locally.
-
-## Running the Project
-
-Document how to run the project locally.
-
-## Running Tests
-
-Document how to run the project's test suite.
-
-## Folder Structure
-
-Document the project's major directories and their responsibilities.
-
-## Environment Variables
-
-Document required environment variables without including real secrets or credentials.
-
-| Variable | Purpose | Example |
-| --- | --- | --- |
-| `EXAMPLE_VARIABLE` | Describe its purpose | `example-value` |
-
-## Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the contribution workflow.
-
-## Security
-
-See [SECURITY.md](SECURITY.md) for security requirements and vulnerability reporting.
-
-## Ownership
-
-- **Owning Pod:** TBD
-- **Coordinator:** TBD
-- **Last Updated:** TBD
+- SEC Google Drive
+- SEC Website GitHub Project
+- [SEC GitHub Organization](https://github.com/gmu-software-engineering-collective)
