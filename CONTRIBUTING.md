@@ -32,15 +32,11 @@ Use lowercase words separated by hyphens.
 
 Examples:
 
-`feature/auth-login`
+- `feature/auth-login`
+- `bugfix/footer-spacing`
+- `docs/onboarding-guide`
 
-`bugfix/footer-spacing`
-
-`docs/onboarding-guide`
-
-**Copy and paste:**
-
-Create a new branch using the appropriate prefix.
+**Create a new branch:**
 
 ```bash
 git switch -c feature/auth-login
@@ -55,7 +51,7 @@ git switch -c docs/onboarding-guide
 git switch -c ci/github-actions
 ```
 
-Replace the branch name with a short description of your work.
+Replace the branch name with a short description of your work. Use the appropriate prefix for the type of change.
 
 ## Commits
 
@@ -63,19 +59,13 @@ Use Conventional Commits.
 
 Examples:
 
-`feat(auth): add session middleware`
+- `feat(auth): add session middleware`
+- `fix(login): handle missing email`
+- `docs(readme): update local setup`
+- `test(auth): add registration tests`
+- `ci(actions): cache dependencies`
 
-`fix(login): handle missing email`
-
-`docs(readme): update local setup`
-
-`test(auth): add registration tests`
-
-`ci(actions): cache dependencies`
-
-**Copy and paste:**
-
-Use the appropriate commit type to describe your changes.
+**Create a commit:**
 
 ```bash
 git commit -m "feat(auth): add session middleware"
@@ -90,7 +80,7 @@ git commit -m "test(auth): add registration tests"
 git commit -m "ci(actions): cache dependencies"
 ```
 
-Replace the commit type, scope, and description to match your changes.
+Replace the commit type, scope, and description to accurately describe your changes.
 
 ## Pull Requests
 
